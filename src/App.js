@@ -1,13 +1,13 @@
+import React from 'react'
+import Useref from './components/Useref'
 
-import './App.css';
 
-
-function App() {
+const App = () => {
   return (
-    <div >
- 
+    <div>
+      <Useref/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
